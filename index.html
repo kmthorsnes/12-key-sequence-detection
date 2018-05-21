@@ -6,16 +6,18 @@
   <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
 </head>
 <body>
+    <body style="background-color:#7ccbf1;">
 <script>
 const pressed = [];
-const secretcode = 'wesbos';
+const secretcode = 'kalle';
  
   window.addEventListener('keyup', (e) => {
     console.log(e.key);
     pressed.push(e.key);
     pressed.splice(-secretcode.length - 1, pressed.length - secretcode.length);
     if(pressed.join('').includes(secretcode)) {
-      console.log('CONGRATS!');
+      console.log('Korrekt <3!');
+      cornify_add();
     }
     console.log(pressed);
   })

@@ -1,6 +1,6 @@
 # Key sequence detection
 
-JS Exercises. 121th challenge of the #JavaScript30 course. Using JS to create log keystrokes and give response when the super secret password - 'kalle' is intered.
+JS Exercises. 12th challenge of the #JavaScript30 course. Using JS to create log keystrokes and give response when the super secret password - 'kalle' is intered.
 
 ## Technology
 
